@@ -7,7 +7,7 @@ def reverse_each_word(string)
   return reverse_ar.join(" ")
 end 
 
-def reverse_each_word_with_collect(string)
+def reverse_each_word(string)
   new_ar = string.split
   new_ar.collect do |string|
      string.reverse
