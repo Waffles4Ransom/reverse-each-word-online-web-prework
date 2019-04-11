@@ -2,7 +2,9 @@
 
 def reverse_each_word(string)
   new_ar = string.split
+  reversed = [ ]
   new_ar.collect do |string|
-     string.reverse
+     reversed << string.reverse
   end
+  reversed.join(" ")
 end 
